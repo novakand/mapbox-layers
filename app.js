@@ -155,7 +155,6 @@ function refreshActiveBboxLayers(map) {
                 map?.getSource('l-text').setData(addStats(data));
             }
             if (!data.features) {
-                console.warn('!datafeatures')
                 console.warn(data)
                 console.warn(url)
                 return
